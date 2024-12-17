@@ -1,0 +1,50 @@
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logout{
+    padding :8px;
+     cursor: pointer;
+     padding: 8px;
+     background-color: white;
+     border-radius: 20px;
+     color: black;
+     font-weight: 500;
+     text-align: center;
+}
+
+.menubutton{
+    display: none;
+}
+
+
+.mobilelinks{
+ display: none;
+    
+}
+@media (max-width:740px){
+    .links{
+        display: none;
+    }
+    .menubutton{
+        display: block;
+        cursor: pointer;    background-color: chartreuse;
+      
+    }
+    .mobilelinks{
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50%;
+        height: calc(100vh - 100px);
+        background-color:#ff0000; 
+        display: flex;
+        color:white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+}

@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    gap: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.textcontainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.imagecontainer{
+    flex:1;
+    position: relative;
+  
+}
+.brands{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+.heroImg{
+    object-fit: contain;
+}
+
+.title{
+    font-size: 57px;
+    font-weight: 700;
+}
+.description{
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.button1{
+    padding: 10px;
+    min-width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+}
+.button2{
+    padding: 10px;
+    min-width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(11, 141, 255);
+    color: rgb(255, 238, 238);
+}

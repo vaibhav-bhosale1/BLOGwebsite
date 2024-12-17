@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.imgcontainer{
+    flex: 1;
+    position: relative;
+    height: calc(100vh - 200px);
+}
+.img{
+    object-fit: cover;
+}
+.textcontainer{
+    flex: 2;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 64px;
+}
+.detail{
+    display: flex;
+ 
+    gap: 20px;
+}
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.detailtext{
+    display: flex;
+    flex-direction: column;
+}
