@@ -29,7 +29,7 @@
     }
     .menubutton{
         display: block;
-        cursor: pointer;    background-color: chartreuse;
+        cursor: pointer;   
       
     }
     .mobilelinks{
@@ -38,7 +38,7 @@
         right: 0;
         width: 50%;
         height: calc(100vh - 100px);
-        background-color:#ff0000; 
+        background-color:#08071f;
         display: flex;
         color:white;
         flex-direction: column;
